@@ -1,0 +1,448 @@
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0d6efd;
+  margin: 0;
+}
+
+#login-container {
+  max-width: 1000px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+#form-login {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+#form-login label[for="username"],
+#form-login label[for="password"]{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+#form-control-login {
+  border-radius: 5px;
+  height: 45px;
+}
+
+#btn-login {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#form-login .input-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+.icon-eye {
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.nav-icon:hover,
+.nav-icon:hover i {
+  color: #0b5ed7 !important;
+  transition: color 0.3s ease;
+}
+
+/* Efek hover warna biru pada link kategori */
+.col-lg-3 .list-unstyled li a:hover {
+    color: #0d6efd !important; /* Warna biru primary Bootstrap */
+  }
+  
+  /* Styling untuk bagian kontak tanpa peta */
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .detail-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+  
+  .icon-contact {
+    color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+.icon-contact i {
+    font-size: 1.2em; /* Ukuran ikon */
+}
+
+.separator {
+    border-top: 3px solid #000000; /* Warna abu-abu tipis */
+    margin: 15px 0; /* Memberikan sedikit ruang di atas dan bawah garis */
+}
+
+/* Kamu bisa menyesuaikan warna, ketebalan, dan jenis garis */
+.separator-dashed {
+    border-top: 2px dashed #bbb;
+    margin: 20px 0;
+}
+
+.separator-solid-blue {
+    border-top: 3px solid #0d6efd; /* Warna biru Bootstrap */
+    margin: 10px 0;
+}
+
+.form-label label{
+	display: block;
+}
+
+.form-label i{
+    margin-right: 5px; /* Jarak antara ikon dan teks */
+    margin-left: 5px; 
+}
+
+.nav-link:hover {
+  color: #0d6efd !important; /* Bootstrap primary color */
+  font-weight: 500;
+}
+
+.tombol-detail {
+  background-color: #0d6efd;
+  color: #ffffff;
+  transition: background-color 0.5s ease; /* Efek transisi smooth */
+}
+
+.tombol-detail:hover {
+  background-color: #66CCCC; /* Warna yang lebih gelap atau berbeda saat dihover */
+  color: #000000; /* Warna teks saat dihover (opsional) */
+}
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+}
+.toast {
+  opacity: 0.9;
+}
+
+.qty-btn {
+  border: 1px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  max-width: 34px;
+  height: 38px;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: 0.2s ease-in-out;
+}
+
+.qty-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.qty-input {
+  padding: 0.25rem;
+  font-size: 1rem;
+  height: 38px;
+  width: 50px;
+}
+
+.product-name {
+  width: 400px;
+  max-width: 400px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.profil-menu-wrapper {
+  display: grid;
+  gap: 15px;
+}
+
+.profil-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  min-height: 120px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.profil-menu-icon {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.profil-menu-text {
+  font-size: 1.1em;
+}
+
+.profil-menu-item{
+  background-color: #f0f0f0;
+  color: #6c757d;
+}
+
+.profil-menu-item .profil-menu-icon {
+  color: #6c757d;
+}
+
+.profil-menu-item-active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.profil-menu-item-active .profil-menu-icon {
+  color: #fff;
+}
+
+.profil-menu-item:hover {
+  background-color: #e0e0e0;
+  color: #5a6268;
+}
+
+.profil-menu-item-active:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+
+.nav-line .nav-item .nav-link {
+  color: #6c757d;
+  border: none;
+  padding-bottom: 10px;
+  position: relative;
+  background-color: transparent;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-line {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 15px;
+}
+
+.nav-line .nav-item .nav-link.active {
+  color: #007bff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-line .nav-item .nav-link.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background-color: #0d6efd;
+  border-radius: 2px;
+}
+
+.nav-line .nav-item .nav-link:not(.active):hover{
+  color: #495057;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-line .nav-item .nav-link.active:hover {
+  color: #0b5ed7;
+  background-color: transparent;
+}
+
+#spinner-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 1.5 ease;
+  animation-delay: 3s;
+}
+
+#spinner-overlay.show{
+  display: flex;
+  opacity: 1;
+}
+
+#spinner-overlay.hide{
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* === ANIMASI MASUK & KELUAR === */
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToTop {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+
+/* === CONTAINER NOTIFY === */
+.alert[data-notify="container"] {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 420px;
+  padding: 16px 20px 16px 65px;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-left: 6px solid #f44336; /* default */
+  border-radius: 6px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: flex-start;
+  animation: slideInFromTop 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* === ANIMASI KELUAR === */
+.alert[data-notify="container"].notify-exit {
+  animation: slideOutToTop 0.6s ease-in forwards !important;
+}
+
+/* === TITLE === */
+.alert[data-notify="container"] [data-notify="title"] {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #222;
+  display: block;
+}
+
+/* === MESSAGE === */
+.alert[data-notify="container"] [data-notify="message"] {
+  font-size: 14px;
+  color: #555;
+  display: block;
+}
+
+/* === ICON LINGKARAN KECIL === */
+.alert[data-notify="container"] [data-notify="icon"] {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f44336;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* === CLOSE BUTTON === */
+.alert[data-notify="container"] .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #999;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.alert[data-notify="container"] .close:hover {
+  color: #555;
+}
+
+/* === VARIAN TIPE WARNA === */
+.alert-success[data-notify="container"] {
+  border-left-color: #4caf50;
+}
+.alert-success[data-notify="container"] [data-notify="icon"] {
+  background-color: #4caf50;
+}
+
+.alert-danger[data-notify="container"] {
+  border-left-color: #f44336;
+}
+.alert-danger[data-notify="container"] [data-notify="icon"] {
+  background-color: #f44336;
+}
+
+.alert-info[data-notify="container"] {
+  border-left-color: #2196f3;
+}
+.alert-info[data-notify="container"] [data-notify="icon"] {
+  background-color: #2196f3;
+}
+
+.alert-warning[data-notify="container"] {
+  border-left-color: #ff9800;
+}
+.alert-warning[data-notify="container"] [data-notify="icon"] {
+  background-color: #ff9800;
+}
+
+/* === RESPONSIVE UNTUK LAYAR KECIL === */
+@media screen and (max-width: 500px) {
+  .alert[data-notify="container"] {
+    width: 90%;
+    right: 5%;
+    left: 5%;
+  }
+}
