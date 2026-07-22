@@ -1,0 +1,17 @@
+Untuk mengakses halaman User
+- Localhost/pt_ika
+Akun untuk login ke dalam Sistem Informasi Pemesanan Produk
+- Username: username
+- Password: 12345678
+
+Untuk mengakses halaman Admin
+- Localhost/pt_ika/admin
+Akun untuk login ke dalam Sistem Informasi Pemesanan Produk
+- Username: admin02
+- Password: 12345678
+
+Untuk mengakses halaman Manajer
+- Localhost/pt_ika/admin
+Akun untuk login ke dalam Sistem Informasi Pemesanan Produk
+- Username: admin01
+- Password: 12345678
